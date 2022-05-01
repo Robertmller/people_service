@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta lang="PT-BR">
+    <meta charset="UTF-8">
+    <title> Documentation </title>
+</head>
+
+<body>
+    <center>
+        <h1> DOCUMENTATION</h1>
+    </center>
+
+    <h2>Lenguages and Technologs Used:</h2>
+
+    <div style="display: inline_block"> <br>
+        <img align="center" , alt="python3" ,
+            src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+        <img align="center" , alt="python3" ,
+            src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+        <ul>
+            <li>Python: 3.8.10</li>
+            <li>djangorestframework: 3.13.1</li>
+            <li>Django: 4.0.2</li>
+            <li> django-filter: 21.1 </li>
+            <li>Docker version: 20.10.12 </li>
+            <li>docker-compose: 1.29.2 </li>
+        </ul>
+
+        <h2> Quickstart: </h2>
+
+        <ol>
+
+            <li>pip3 install virtualenv</li> <br>
+
+
+            <li>python3 -m venv venv</li> <br>
+
+
+            <li>source venv/bin/activate</li> <br>
+
+
+            <li>pip3 install -r requeriments.txt</li> <br>
+
+
+            <li>python3 manage.py makemigrations</li><br>
+
+
+            <li>python3 manage.py migrate</li><br>
+
+
+            <li> python3 manage.py createsuperuser </li><br>
+
+            <ol> Input: Username</ol>
+            <ol> Input: Email</ol>
+            <ol> Input: Password</ol>
+            <ol> Input: Confime password</ol><br>
+
+            <li>python3 manage.py seed core --number=10</li><br>
+
+            <li>python3 manage.py drf_create_token Your_Username</li> <br>
+
+            <li>python3 manage.py runserver</li><br>
+
+        </ol>
+        <h4>Routes:</h4>
+        <li>http://localhost:8000/ - API Documentation </li>
+        <li>http://localhost:8000/admin - Controll Panel Django</li>
+        <li>http://localhost:8000/swagger/ - Swagger documentation</li>
+        <li>http://localhost:8000/redoc/ - Swagger documentation</li>
+        <li>http://localhost:8000/api/v1/token/ - Create token for your user</li>
+        <li>http://localhost:8000/api/v1/token/refresh/ - Refresh your Token</li> <br>
+        <br>
+        <br>
+</body>
+
+</html>

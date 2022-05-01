@@ -1,0 +1,2 @@
+{% load i18n %} {% autoescape off %} {% blocktrans %}E-mail de alteração de
+senha{% endblocktrans %} {% endautoescape %}

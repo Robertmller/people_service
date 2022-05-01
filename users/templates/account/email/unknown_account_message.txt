@@ -1,0 +1,8 @@
+{% extends "account/email/base_message.txt" %} {% load i18n %} {% block content
+%}{% autoescape off %}{% blocktrans %}Você está recebendo este e-mail porque ou
+outra pessoa solicitou uma senha para sua conta de usuário. No entanto, fazemos
+não ter nenhum registro de um usuário com e-mail {{ email }} em nosso banco de
+dados. Este e-mail pode ser ignorado com segurança se você não solicitou uma
+redefinição de senha. Se isso foi você, você pode se inscrever para uma conta
+usando o link abaixo.{% endblocktrans %} {{ signup_url }}{% endautoescape %}{%
+endblock %}

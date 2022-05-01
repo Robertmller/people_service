@@ -1,0 +1,13 @@
+{% extends "account/base.html" %} {% load i18n %} {% block head_title %}{% trans
+"Verifique seu endereço de E-mail" %}{% endblock %} {% block content %}
+<h1>{% trans "Verifique seu endereço de E-mail" %}</h1>
+
+<p>
+  {% blocktrans %}Enviamos um e-mail para você para verificação. Siga o link
+  fornecido para finalizar o processo de inscrição. Se você não vir o e-mail de
+  verificação em sua caixa de entrada principal, verifique sua pasta de spam.
+  Entre em contato conosco se você não receber o e-mail de verificação em alguns
+  minutos.{% endblocktrans %}
+</p>
+
+{% endblock %}
